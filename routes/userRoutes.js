@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+
 const  {
     authUser,
     registerUser,
@@ -21,4 +22,4 @@ logout(logoutUser);
 getProfile();
 updateProfile();
 
-module.exports ={router};
+module.exports =router;
